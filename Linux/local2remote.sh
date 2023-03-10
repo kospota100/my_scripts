@@ -15,5 +15,5 @@ elif [ $1 = "-e" ]; then
 
 	echo "\nCopy local file $2 to remote machine $3@$4 port $5:~/remote folder\n"
 
-	rsync -avzh -e "ssh -p ${5}" --progress ./$2 $3@$4:~/remote/
+	rsync -avzh -e "ssh -p ${5}" --progress $2 $3@$4:~/remote/
 fi
