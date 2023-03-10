@@ -4,7 +4,7 @@ if [ $1 = "help" ]; then
 
 	echo "\n\t======= local2remote use manual =======\n"
 	echo "  Usage:"
-	echo "    sh local2remote.sh [Option] [File/folder] [Remote username] [Remote IP addr] [Remote port]\n"
+	echo "    sh local2remote.sh [Option] [Local file/folder] [Remote username] [Remote IP addr] [Remote port]\n"
 	echo "  Option:"
         echo "    help  show usage manual"
         echo "    -e    execute"
